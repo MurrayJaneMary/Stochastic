@@ -1,0 +1,16 @@
+Match 8641:
+  Recurrence time = 0.0056 Myr
+  Amin = -0.92
+  Amax = 1.475
+  Model mean(|x|) = 3.7750677866964186
+  Model std(|x|) = 3.3915722832246327
+  Model reversal frequency = 3.817462111084497 per Myr
+  Proportion reversing time = 0.21767440608076827
+  Normalized Error = 0.16261961958367702
+
+mean recurrence time = 0.0035761065818763014 Myr
+recurrence = 0.0036 Myr  mean x = 5.6023190670315195 std x = 3.2531366693659867
+rev rate: 0.6990968827331514 per Myr
+rev rate: 0.6431691321144993 per Myr
+final rev rate: 0.6431691321144993 per Myr
+proportion reversing: 0.3466894556287218

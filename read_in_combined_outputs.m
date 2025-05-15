@@ -1,5 +1,5 @@
 % Define the path to the large CSV file
-filePath = 'C:\Users\murray98\Documents\Bruce Buffett model\code\model3\combined_output_2025-05-13.csv';
+filePath = 'C:\Users\murray98\Documents\Bruce Buffett model\code\model4\combined_output_2025-05-15.csv';
 
 % Get the folder of the input file to save output in the same location
 [folderPath, ~, ~] = fileparts(filePath);
@@ -16,7 +16,7 @@ dataTable = readall(ds);
 dataArray = table2array(dataTable);
 
 % Extract the first row as timesteps and the rest as gh_full
-timesteps = dataArray(1, :);
+timesteps = dataArray(1, :).';  % Transpose to column vector
 gh_full = dataArray(2:end, :);
 
 % Save timesteps and gh_full to separate .mat files in the same folder

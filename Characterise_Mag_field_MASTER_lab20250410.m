@@ -73,8 +73,8 @@ if Model_List == 1
     %CurrentDirectory = "C:\Users\andyb\Dropbox\WORK_AB\Andy_Research\Geodynamo_Sims\"
     %Model_names = "Model_GGF100k"
     %Title_names = "Model GGF100k"
-    Model_names = "model1"
-    Title_names = "model1"
+    Model_names = "model4"
+    Title_names = "model4"
     %*************************************************************
 
     %load('C:\Users\andyb\Dropbox\WORK_AB\Andy_Research\Geomag_models_Datasets\Obs_Model_names.mat')
