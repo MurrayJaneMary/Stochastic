@@ -1,0 +1,15 @@
+model9
+From model4 changed Amin
+
+Amin = -0.2 Amax = 1.225 R = 0.0052 mean x = 9.338997363851458 std x = 2.441032415498402
+rev rate: 0.00957894697743533 per Myr
+rev rate: 0.00957894697743533 per Myr
+final rev rate: 0.00957894697743533 per Myr
+proportion reversing: 0.30802466531667416
+
+mean recurrence time = 0.005280973720260264 Myr
+recurrence = 0.0052 Myr  mean x = 9.210189094810119 std x = 2.438704354943584
+rev rate: 0.009468528189192109 per Myr
+rev rate: 0.009468528189192109 per Myr
+final rev rate: 0.009468528189192109 per Myr
+proportion reversing: 0.30270021568293654

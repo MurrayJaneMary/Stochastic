@@ -1,0 +1,23 @@
+Optimised for:
+            errors[k, l, m] = 
+                0.001*((model_mean - target_mean) / target_mean)^2 +
+                 ((model_std - target_std) / target_std)^2 +
+               ((model_revfreq - target_revfreq) / target_revfreq)^2
+
+Match 4713:
+  Recurrence time = 0.0052 Myr
+  Amin = -0.84
+  Amax = 1.25
+  Model mean(|x|) = 3.0784592601658844
+  Model std(|x|) = 2.800936028603133
+  Model reversal frequency = 4.017726979598169 per Myr
+  Proportion reversing time = 0.16423929568741552
+  Normalized Error = 0.0002465304755678465
+
+mean recurrence time = 0.00516942774100112 Myr
+recurrence = 0.0052 Myr  mean x = 2.9190672886041287 std x = 2.7614185531672817
+rev rate: 2.734696378953783 per Myr
+rev rate: 4.607655635279043 per Myr
+rev rate: 4.510930039881964 per Myr
+final rev rate: 4.510930039881964 per Myr
+proportion reversing: 0.1841629352433613

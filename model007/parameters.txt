@@ -1,0 +1,17 @@
+model7
+On cusp of superchron
+
+Amin = -0.6 Amax = 2.0 R = 0.0052 mean x = 11.541117977804637 std x = 3.381089080513644
+recurrence = 0.0052 Myr  mean x = 11.541117977804637 std x = 3.381089080513644
+rev rate: 0.009742548221844349 per Myr
+rev rate: 0.009742548221844349 per Myr
+final rev rate: 0.009742548221844349 per Myr
+proportion reversing: 0.2889625036119514
+ 
+
+mean recurrence time = 0.005166376211109575 Myr
+recurrence = 0.0052 Myr  mean x = 11.583482796821697 std x = 3.372487182981207
+rev rate: 0.01935904842975091 per Myr
+rev rate: 0.01935904842975091 per Myr
+final rev rate: 0.01935904842975091 per Myr
+proportion reversing: 0.2990700236352027

@@ -1,0 +1,19 @@
+model12 
+superchron
+
+mean recurrence time = 0.0014990355785784596 Myr
+Amin = -0.6 Amax = 1.225 R = 0.0015 mean x = 14.092086835063128 std x = 2.8083304044615405
+recurrence = 0.0015 Myr  mean x = 14.032206366945244 std x = 2.8129285301183944
+rev rate: 0.0 per Myr
+rev rate: 0.0 per Myr
+final rev rate: 0.0 per Myr
+proportion reversing: 0.2948994723714521
+
+
+mean recurrence time = 0.00149365398600078 Myr
+Amin = -0.6 Amax = 1.225 R = 0.0015 mean x = 14.201035990427219 std x = 2.8273260255025496
+recurrence = 0.0015 Myr  mean x = 14.032084301456905 std x = 2.8380875706468247 median x = 14.13357148991362 IQR x = 3.7704459556383494
+rev rate: 0.0 per Myr
+rev rate: 0.0 per Myr
+final rev rate: 0.0 per Myr
+proportion reversing: 0.2915559540230406

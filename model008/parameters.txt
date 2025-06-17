@@ -1,0 +1,15 @@
+model8
+
+Amin = -0.6 Amax = 2.4 R = 0.0052 mean x = 13.568892877730558 std x = 3.5618821817560264
+recurrence = 0.0052 Myr  mean x = 13.568892877730558 std x = 3.5618821817560264
+rev rate: 0.0 per Myr
+rev rate: 0.0 per Myr
+final rev rate: 0.0 per Myr
+proportion reversing: 0.30104427796346567
+
+mean recurrence time = 0.005231614362608478 Myr
+recurrence = 0.0052 Myr  mean x = 13.521273318873357 std x = 3.4298962213677897
+rev rate: 0.0 per Myr
+rev rate: 0.0 per Myr
+final rev rate: 0.0 per Myr
+proportion reversing: 0.29523212506687385

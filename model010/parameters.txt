@@ -1,0 +1,14 @@
+model9
+superchron
+Amin = 0.0 Amax = 1.225 R = 0.0052 mean x = 10.541863556069417 std x = 2.2988294848637376
+rev rate: 0.0 per Myr
+rev rate: 0.0 per Myr
+final rev rate: 0.0 per Myr
+proportion reversing: 0.32062988499595835
+
+mean recurrence time = 0.005180155419066671 Myr
+recurrence = 0.0052 Myr  mean x = 10.571316715442098 std x = 2.3323361349620546
+rev rate: 0.0 per Myr
+rev rate: 0.0 per Myr
+final rev rate: 0.0 per Myr
+proportion reversing: 0.3155575948953565

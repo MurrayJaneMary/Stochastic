@@ -1,0 +1,19 @@
+model11
+cusp - 1 reversal per 100 myr
+
+
+mean recurrence time = 0.0022049828078799633 Myr
+Amin = -0.6 Amax = 1.225 R = 0.0022 mean x = 11.21893857383411 std x = 2.9953732223665033
+rev rate: 0.045355273878723686 per Myr
+rev rate: 0.045355273878723686 per Myr
+final rev rate: 0.045355273878723686 per Myr
+proportion reversing: 0.2880871781572601
+
+
+mean recurrence time = 0.0022034970361272227 Myr
+Amin = -0.6 Amax = 1.225 R = 0.0022 mean x = 11.316745170555656 std x = 2.947100345297181
+recurrence = 0.0022 Myr  mean x = 11.231658727789284 std x = 2.951096560303644
+rev rate: 0.009076619300847591 per Myr
+rev rate: 0.009076619300847591 per Myr
+final rev rate: 0.009076619300847591 per Myr
+proportion reversing: 0.2913979406810224

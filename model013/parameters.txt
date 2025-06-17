@@ -1,0 +1,10 @@
+model013
+
+mean recurrence time = 0.005976505903857551 Myr
+Amin = -0.1 Amax = 0.9 R = 0.006 mean x = 2.767609956313119 std x = 1.6383254349583352
+recurrence = 0.006 Myr  mean x = 6.936833585842623 std x = 2.079392613595943 median x = 6.941185163301348 IQR x = 2.837167178324952
+rev rate: 0.008366122892861535 per Myr
+rev rate: 0.008366122892861535 per Myr
+final rev rate: 0.008366122892861535 per Myr
+proportion reversing: 0.3087029754202785
+

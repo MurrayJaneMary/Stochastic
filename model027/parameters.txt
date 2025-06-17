@@ -1,0 +1,5 @@
+model027
+Amin = -0.0 Amax = 0.6 R = 0.006 mean x = 4.993079264024355 std x = 1.730215138786344
+recurrence = 0.006 Myr  mean x = 4.993079264024355 std x = 1.730215138786344 median x = 4.97308917119318 IQR x = 2.3368522925286377
+final rev rate: 0.1063569329013972 per Myr
+proportion reversing: 0.30353846645977334
