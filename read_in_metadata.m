@@ -12,6 +12,7 @@ PropReversing = zeros(n, 1);
 
 for i = 1:n
     modelName = Results.Model{i};
+    disp(modelName)
     filename = fullfile(modelName, [modelName, '_metadata.json']);
 
     if isfile(filename)
