@@ -11,7 +11,7 @@ nlat=slat; elong=slong; alt=0;
 B = g2fxFunc_vRKB(gh,max_degree,nlat,elong,alt); %calls script to get B
 
 Bcart = Cart2DI(B');
-    dec = Bcart(1,1); inc = Bcart(1,2); F=Bcart(1,3).*1000000; %gives F in micro_T
+    dec = Bcart(1,1); inc = Bcart(1,2); F=Bcart(1,3).*1e6; %gives F in micro_T
     
     polecalcin =[dec, inc, slat, slong];
     [plat, plong] = polecalc(polecalcin);

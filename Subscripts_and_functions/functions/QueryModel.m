@@ -19,5 +19,5 @@ Bcart = Cart2DI(B');
     VDM = VDMcalc(F,inc); %in ZAm^2
     inclat=lat2inc(nlat);
     VADM = VDMcalc(F,inclat); %in ZAm^2
-   
+   timestep;
     %output(row,:) = [i_VDM nlat elong dec inc F VDM VADM];

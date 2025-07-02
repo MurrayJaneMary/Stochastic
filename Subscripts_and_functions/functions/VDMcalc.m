@@ -12,4 +12,4 @@ b = sqrt(1+3.*(cos(radians(colat)).^2));
 
 ab = a./b;
 
-V = (ab .* F ); % assuming F is in T, V is in Am2
+V = (ab .* F .*1e-6 .*1e-21); % assuming F is in microT, V is in ZAm2

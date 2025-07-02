@@ -68,20 +68,32 @@ if Model_List == 1
     %load('C:\Users\andyb\Dropbox\WORK_AB\Andy_Research\Geomag_models_Datasets\Obs_Model_names.mat')
     
     gh_CorrFac = 1; %***CONVERT TO nT IF NECESSARY
-    gh_CorrFac_DM = 1; gh_CorrFac_VDM = 1e-6; % Use this for OBS models to get VDM and Dipole Moment in correct units
+    gh_CorrFac_DM = 1; gh_CorrFac_VDM = 1e-9; % Use this for OBS models to get VDM and Dipole Moment in correct units
     CurrentDirectory = "C:\Users\murray98\Documents\Bruce Buffett model\code\";
     %CurrentDirectory = "C:\Users\andyb\Dropbox\WORK_AB\PhD_Students and PDRAs\Mary Murray\Buffett model\";
     Model_names = [%"IGRF14"
-        "model017"; "model018"; "model019"; "model020";
-        "model021"; "model022"; "model023"; "model024";
-        "model025"; "model026"; 
-        "model027"
+        %"model017"; "model018"; "model019"; "model020";
+        %"model021"; "model022"; "model023"; "model024";
+        %"model025"; "model026"; 
+        %"model027";
+        %"model028"; "model029"; "model030";
+        %"model031"; "model032"; "model033";
+        %"model034"; "model035"; "model036";
+        %"model037"; "model038";
+        %"model104"; "model105"; "model106"; "model107"; "model108"; "model109"; 
+        "model029a";
+        
         ]; %"Real1_10ka";%["Model_GGF100k";"Model_GGFSS70"];
     Title_names = [%"IGRF14"
-        "model017"; "model018"; "model019"; "model020";
-        "model021"; "model022"; "model023"; "model024";
-        "model025"; "model026"; 
-        "model027"
+        %"model017"; "model018"; "model019"; "model020";
+        %"model021"; "model022"; "model023"; "model024";
+        %"model025"; "model026"; 
+        %"model027";
+        %"model028"; "model029"; "model030";
+        %"model031"; "model032"; "model033";
+        %"model034"; "model035"; "model036";
+        %"model037"; "model038";
+        "model029a";
         ];%["GGF100k";"GGFSS70"];
     %Model_names = Obs_Model_names(13,1);%[4 13 16 17])%(10:12,:)%(1:9,:)
     %Title_names = Obs_Model_names(13,2);
@@ -172,6 +184,9 @@ for Model = 1: Nmodels
     
     %%transistion time fraction (as defined by Sprain, 2019)
     ResultsTable.t_trans(Model, 1) = sum(d_colat >= 45 & d_colat <= 135) / numel(d_colat); 
+    
+    ResultsTable.VDM_median(Model,1) = median(VDM);
+    ResultsTable.VDM_IQR(Model, 1) = iqr(VDM);
 
 end
 
@@ -186,11 +201,12 @@ Results = table(ResultsTable.Model, ResultsTable.ModelDuration, ...
     ResultsTable.Model_G_a_SpSE, ...
     ResultsTable.Model_G_b_SpSE, ...
     ResultsTable.t_trans, ...
+    ResultsTable.VDM_median, ResultsTable.VDM_IQR,...
     'VariableNames', ["Model", "Duration_kyr", "ADF_median", "ADF_iqr", ...
     "NADF_median", "NADF_iqr", "ADF_StableTime", ...
     "NADF_StableTime", ... 
     "Model_G_a_S_nocut", "Model_G_b_S_nocut", ...
     "Model_G_a_Svd", "Model_G_b_Svd", ...
     "Model_G_a_SpSE", "Model_G_b_SpSE", ...
-    "t_trans", ...
+    "t_trans", "VDM_median", "VDM_IQR" ,...
     ]);

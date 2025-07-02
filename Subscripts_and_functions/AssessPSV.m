@@ -40,7 +40,7 @@ Nd(1:Nt,1) = 999; kdir(1:Nt,1) = 99999;
 
 %rand('state',sum(100*clock))
 
-NVGPs = size(LongVector,2) .* size(LatVector,2) .* Nt
+NVGPs = size(LongVector,2) .* size(LatVector,2) .* Nt;
 VGPs = nan(NVGPs,4); %VGPs = [dec, inc, VGPlat, VGPlong]
 
 FullResults = nan(NVGPs./Nt, 9); 
@@ -50,9 +50,9 @@ for run=1:1
     NumLat = 1; NumLong = 1; location =1;
     
     row=1;
-    while NumLong <= size(LongVector,2)
-        slong = LongVector(NumLong)
-        while NumLat <= size(LatVector,2)
+    while NumLong <= size(LongVector,2);
+        slong = LongVector(NumLong);
+        while NumLat <= size(LatVector,2);
             slat = LatVector(NumLat);
             
             
