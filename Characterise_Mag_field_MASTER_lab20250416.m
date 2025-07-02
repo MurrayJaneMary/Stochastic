@@ -81,7 +81,7 @@ if Model_List == 1
         %"model034"; "model035"; "model036";
         %"model037"; "model038";
         %"model104"; "model105"; "model106"; "model107"; "model108"; "model109"; 
-        "model029a";
+        "model038a"; "model038";
         
         ]; %"Real1_10ka";%["Model_GGF100k";"Model_GGFSS70"];
     Title_names = [%"IGRF14"
@@ -93,7 +93,7 @@ if Model_List == 1
         %"model031"; "model032"; "model033";
         %"model034"; "model035"; "model036";
         %"model037"; "model038";
-        "model029a";
+        "model038a"; "model038";
         ];%["GGF100k";"GGFSS70"];
     %Model_names = Obs_Model_names(13,1);%[4 13 16 17])%(10:12,:)%(1:9,:)
     %Title_names = Obs_Model_names(13,2);

@@ -12,7 +12,7 @@ VDMratio_PINT = Results.VDM_IQR(isPINT) ./ Results.VDM_median(isPINT);
 VDMratio_model = Results.VDM_IQR(isModel) ./ Results.VDM_median(isModel);
 
 
-tiledlayout (2,4)
+tiledlayout (4,3)
 
 
 
@@ -58,8 +58,28 @@ plot(Results.RevRate(isModel), Results.Model_G_a_S_nocut(isModel), 'bo')
 hold off
 xlabel('RevRate (Myr^{-1})')
 ylabel('Model_G_a')
+title(' Model G A no cut')
 
-title(' Model G A vs RevRate')
+% Tile 5
+nexttile
+hold on
+plot(Results.RevRate(isModel), Results.Model_G_a_S_nocut(isModel), 'bo')
+plot(Results.RevRate(isModel), Results.Model_G_a_Svd(isModel), 'ro')
+plot(Results.RevRate(isModel), Results.Model_G_a_SpSE(isModel), 'go')
+legend('no cut)','Vandamme', 'Spherical exp')
+hold off
+xlabel('RevRate (Myr^{-1})')
+ylabel('Model_G_a')
+
+
+% Tile 5
+nexttile
+hold on
+plot(Results.RevRate(isModel), Results.Model_G_a_SpSE(isModel), 'bo')
+hold off
+xlabel('RevRate (Myr^{-1})')
+ylabel('Model_G_a')
+title('Model G A Spherical exponential')
 
 % Tile 6
 nexttile
